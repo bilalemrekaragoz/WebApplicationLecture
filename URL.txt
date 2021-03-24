@@ -1,2 +1,1 @@
-https://bilalemrekaragoz.herokuapp.com/
-You can find the related page at this link at InClassActivty1.
+https://bilalemrekaragoz.herokuapp.com/lab2.html
