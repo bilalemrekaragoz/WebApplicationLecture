@@ -87,6 +87,7 @@ li
   height: 20px;
 	text-align: center;
   list-style-type: square;
+  list-style-position: outside;
 }
 
 div
