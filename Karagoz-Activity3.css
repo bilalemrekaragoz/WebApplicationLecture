@@ -1,0 +1,96 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color:#FFAA00;
+  font: 12pt "Tahoma", "Arial", sans-serif;
+  background-color: whitesmoke;
+  background-image: url("coffe_shop.jpg") ;
+  background-size: cover;
+}
+
+#wrapper{
+
+}
+
+#header {
+
+}
+
+#news {
+
+}
+
+
+#main {
+
+}
+
+img{
+  border: 2px solid #FFAA00;
+}
+
+
+footer {
+  font: 12pt "Helvetica";
+  text-align: center;
+}
+
+h2,h1{
+
+}
+
+.altrow
+{
+  background-color: #E0DEDA;
+}
+
+table,th,td
+{
+  border: 2px solid #FFAA00;
+}
+tbody tr:nth-child(even)
+{
+  background-color: bisque;
+}
+.Selection
+{
+  background-color:#999896;
+}
+
+.Java
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Menu
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Music
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Location
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li
+{
+  border: 1px solid #FFAA00;
+  width: 300px;
+  height: 20px;
+	text-align: center;
+  list-style-type: square;
+}
+
+div
+{
+  background-color: bisque;
+  width: 200px;
+}
