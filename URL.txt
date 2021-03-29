@@ -1,0 +1,8 @@
+https://bilalemrekaragoz.herokuapp.com/Karagoz-Activity3.html
+
+
+Validate HTML linkine tıklandığında açılan sayfada hata veriyor fakat validate html sitesinin anasayfasına gidip;
+yukarıdaki linki yapıştırdığımızda error'ları kontrol ediyor.
+Aynı zamanda Validate CSS linkine tıkladığımızda da "Referer" hatası veriyor.
+Bu ödevin, 2. ödevdeki kodların yapısı ile bir farkı olmamasına rağmen 2. ödevde validate yaparken bir hata almıyor.
+Fakat bu ödevde nedenini anlamadığım bir şekilde valide ederken hata alıyorum.

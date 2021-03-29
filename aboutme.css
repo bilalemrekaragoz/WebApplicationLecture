@@ -1,0 +1,39 @@
+body
+{
+    background-image: url("aboutme.jpg");
+    background-size: cover;
+}
+
+h1
+{
+    color: beige;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.Me
+{
+    border: 5px solid yellowgreen;
+    width: fit-content;
+    height: fit-content;
+    color: beige;
+    font: 18px "helvetica";
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Activities a
+{
+    color: black;
+    font: 24px "arial";
+    padding: 6px;
+    text-align: center;
+}
+
+.Activities
+{
+    text-align: center;
+    margin: 6%;
+}
