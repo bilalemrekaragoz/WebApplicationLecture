@@ -5,10 +5,44 @@
 	border-color:black;
 	border-width:2px; 
 	background-color:gray; 
-	color:white;
+	color:black;
+	position: fixed;
+	top: 5px;
+	left: 15px;
+
 }
 
-.content
+.header
 {
-	font-family: 'Courier New', Courier, monospace;
+	margin-left: 150px;
+}
+
+
+.header .logo
+{
+	float: left;
+}
+
+.header .title
+{
+	padding-top: 1%;
+}
+
+.content{
+	clear: left;
+	width:70%;
+	margin-top: 150px;
+	margin-left: 170px;
+}
+
+
+.image img
+{
+	width: 250px;
+	float: left;
+}
+
+.head{
+	margin-top: 100px;
+	text-align: center;
 }
