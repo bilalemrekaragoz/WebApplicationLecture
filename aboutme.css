@@ -1,7 +1,10 @@
 body {
-  background-image: url("images/aboutme.svg");
-  background-size: cover;
+  
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1005%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(177%2c 192%2c 207%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c556.028C104.469%2c539.608%2c197.616%2c499.719%2c295.627%2c460.004C417.546%2c410.601%2c571%2c403.296%2c645.12%2c294.617C720.445%2c184.171%2c702.001%2c33.918%2c675.602%2c-97.137C650.151%2c-223.489%2c583.659%2c-335.201%2c498.726%2c-432.149C414.145%2c-528.695%2c313.656%2c-612.657%2c190.957%2c-650.341C67.394%2c-688.29%2c-71.584%2c-697.601%2c-188.9%2c-643.335C-300.844%2c-591.554%2c-358.967%2c-471.912%2c-422.861%2c-366.411C-477.466%2c-276.248%2c-511.995%2c-179.975%2c-532.179%2c-76.516C-553.321%2c31.853%2c-571.064%2c141.136%2c-542.696%2c247.841C-510.914%2c367.387%2c-469.624%2c502.291%2c-362.059%2c563.375C-254.922%2c624.216%2c-121.713%2c575.158%2c0%2c556.028' fill='%23829ab2'%3e%3c/path%3e%3cpath d='M1440 1057.036C1563.192 1052.496 1681.623 1158.383 1797.469 1116.232 1917.017 1072.733 1997.4589999999998 954.3299999999999 2045.74 836.6320000000001 2093.062 721.273 2078.206 594.195 2062.348 470.52 2046.267 345.111 2039.004 208.17700000000002 1953.2440000000001 115.27199999999999 1868.183 23.124000000000024 1735.337-12.447000000000003 1610.123-19.384000000000015 1499.199-25.528999999999996 1407.008 53.988999999999976 1298.77 79.01499999999999 1181.101 106.22199999999998 1029.69 44.724000000000046 948.027 133.70299999999997 866.815 222.192 936.902 366.45 925.26 485.991 914.316 598.365 858.169 704.545 881.68 814.976 908.323 940.115 947.802 1092.327 1065.188 1143.22 1185.239 1195.268 1309.241 1061.855 1440 1057.036' fill='%23e1e6ec'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1005'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -11,10 +14,9 @@ h1 {
 }
 
 .Me {
-  border: 5px solid yellowgreen;
   width: fit-content;
   height: fit-content;
-  color: beige;
+  color: black;
   font: 18px "helvetica";
   margin: auto;
   text-align: center;
@@ -32,4 +34,8 @@ h1 {
 .Activities {
   text-align: center;
   margin: 6%;
+}
+
+.name {
+  color: rgb(92, 24, 3);
 }
