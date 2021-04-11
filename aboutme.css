@@ -8,6 +8,7 @@ body {
 }
 
 
+
 .Me {
   width: fit-content;
   height: fit-content;
@@ -33,4 +34,5 @@ body {
 
 .name {
   color: rgb(0, 0, 0);
+  text-align: center;
 }
