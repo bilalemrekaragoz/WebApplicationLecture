@@ -1,5 +1,19 @@
-input[type="text"], input[type="password"], select, input[type="number"], input[type="email"], textarea[type="text"], input[type="submit"], #Sex, #Language{
+
+input[type="text"],
+input[type="password"],
+select,
+input[type="number"],
+input[type="email"],
+textarea[type="text"],
+input[type="submit"],
+#Sex,
+#Language{
     position: absolute;
-    left:85px;
-    padding: 2%;
+    left:100px;
+}
+#Sex,#Language{
+    display:flex;
+}
+input[type="submit"]{
+    margin-top: 3%;
 }
