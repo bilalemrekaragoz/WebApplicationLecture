@@ -29,6 +29,7 @@
       <span>
         <label for="Country">Country:</label>
         <select id="Country" name="Country">
+          <option >(please select a country)</option>
           <option value="USA">America</option>
           <option value="TR">Turkey</option>
           <option value="FR">France</option>

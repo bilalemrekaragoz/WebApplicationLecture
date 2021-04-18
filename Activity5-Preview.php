@@ -5,8 +5,8 @@
     echo "<h1> Prewiev </h1>";
     if(isset($_GET["sub_but"])){
         foreach($personals as $val => $key){
-            if($_GET[$val] != null && $_GET[$val] != "(Please Select a Country)"){
-                $key = $_GET[$val];
+            if($_REQUEST[$val] != null && $_REQUEST[$val] != "(Please Select a Country)"){
+                $key = $_REQUEST[$val];
                 if ($val == "Language"){
                     for($i = 0; $i < sizeof($key); $i++){
                         echo "$key[$i] <br/>";
