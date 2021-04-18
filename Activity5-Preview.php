@@ -1,25 +1,49 @@
 <?php
-    $personals = array("Name"=>"Not Provided","Username"=>"Not Provided","Password"=>"Not Provided"
-                        ,"Address"=>"Not Provided","Country"=>"Not Provided","Zip"=>"Not Provided","Email"=>"Not Provided"
-                        ,"Sex"=>"Not Provided","Language"=>"Not Provided","About"=>"Not Provided");
-    echo "<h1> Prewiev </h1>";
-    if(isset($_GET["sub_but"])){
-        foreach($personals as $val => $key){
-            if($_REQUEST[$val] != null && $_REQUEST[$val] != "(Please Select a Country)"){
-                $key = $_REQUEST[$val];
-                if ($val == "Language"){
-                    for($i = 0; $i < sizeof($key); $i++){
-                        echo "$key[$i] <br/>";
+    $information = array(
+    "Name"=>"Not Provided",
+    "Username"=>"Not Provided",
+    "Password"=>"Not Provided",
+    "Address"=>"Not Provided",
+    "Country"=>"Not Provided",
+    "Zip_Code"=>"Not Provided",
+    "Email"=>"Not Provided",
+    "About"=>"Not Provided");
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Your Informations</title>
+    </head>
+    <body>
+        <h1>Preview</h1>
+        <?php
+            foreach($information as $value => $key)
+            {
+                if($_GET[$value] != null && $_GET[$value] != 0)
+                {
+                    $key = $_GET[$value];
+                    if ($value == "Language")
+                    {
+                        for($i = 0; $i < sizeof($key); $i++)
+                        {
+                            echo "$key[$i] <br/>";
+                        }
+                    }
+                    else
+                    {
+                        echo "$key <br/>";
                     }
                 }
-                else{
-                    echo "$key <br/>";
+                else
+                {
+                    echo "$value: $key <br/>";
                 }
+                            
             }
-            else{
-                echo "$val: $key <br/>";
-            }
-                
-        }
-    }   
-?>
+        ?>
+    </body>
+</html>
+  

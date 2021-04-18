@@ -1,0 +1,5 @@
+input[type="text"], input[type="password"], select, input[type="number"], input[type="email"], textarea[type="text"], input[type="submit"], #Sex, #Language{
+    position: absolute;
+    left:85px;
+    padding: 2%;
+}
