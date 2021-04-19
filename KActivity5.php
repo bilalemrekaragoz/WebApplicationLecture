@@ -5,52 +5,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Activity 5</title>
-    <link rel="stylesheet" type="text/css" href="KIRTILLI-Activity5.css" />
+    <title>About You</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/activity5.css" />
   </head>
   <body>
-    
-    <form action="KActivity5-Preview.php" method="post">
-    <h1>Registration Form</h1>
-      Name: <input type="text" name="Name"/><br/><br/> 
-      Username: <input type="text" name="Username"/><br/><br/> 
-	    Password: <input type="password" name="Password"><br/><br/> 
-      Adress: <input type="text" name="Address"/><br/><br/> 
-      <label>Country:</label>
-      <select name="Country">
-        <option value="">Choose Country </option> 
-        <option value="America">America</option>
-        <option value="Turkey">Turkey</option>
-        <option value="England">England</option>
-        <option value="Germany">Germany</option>
-      </select><br/><br/> 
-      ZIP Code: <input type="number" name="Zipcode"/><br/><br/> 
-      E-mail: <input type="email" name="E-mail"/><br/> <br/> 
-         <div class="gender">
-         Sex:
-            <div class="gender-input">
-              <input type="radio" id="radio1" name="Gender" value="Male" >
-              <label>Male</label>
-              <input type="radio" name="Gender" value="Female" >
-              <label>Female</label>
-            </div>
-         </div>
-         <br/>
-        <div class="language">
-        Language: 
-           <div class="language-input">
-              <label> English</label>
-              <input type="checkbox" name="Language[]" value="English" >
-              <label> French</label>
-              <input type="checkbox" name="Language[]" value="French">
-              <label> German</label>
-              <input type="checkbox" name="Language[]" value="German">
-           </div>  
-        </div> 
-        <br/>
-      About: <textarea type ="text" name="About" rows="3" cols="30"></textarea> <br/><br/> 
-	    <input type="submit" value="submit"/>
-	</form>
-
+    <form action="Activity5-Preview.php" method="GET">
+      <h1>Registration Form</h1>
+      <span>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" /><br />
+      </span>
+      <span>
+        <label for="Username">Username:</label>
+        <input type="text" name="Username" /><br />
+      </span>
+      <span>
+        <label for="Password">Password:</label>
+        <input type="text" name="Password" /><br />
+      </span>
+      <span>
+        <label for="Address">Address:</label>
+        <input type="text" name="Address" /><br />
+      </span>
+      <span>
+        <label for="Country">Country:</label>
+        <select id="Country" name="Country">
+          <option  hidden>Select Country</option>
+          <option value="USA">America</option>
+          <option value="TR">Turkey</option>
+          <option value="FR">France</option>
+          <option value="GB">England</option>
+        </select>
+        <br />
+      </span>
+      <span>
+        <label for="Zip Code">Zip Code:</label>
+        <input type="number" name="Zip Code" /><br />
+      </span>
+      <span>
+        <label for="EMail">EMail:</label>
+        <input type="email" name="EMail" /><br />
+      </span>
+      <span>
+        <label for="Sex">Sex:</label>
+        <input type="radio" id="male" name="Sex" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Sex" value="female" />
+        <label for="female">Female</label> <br />
+      </span>
+      <span>
+        <label class="title">Language:</label>
+        <label for="English"> English </label>
+        <input type="checkbox" name="Language[]" value="English" id="English" />
+        <label for="French"> French </label>
+        <input type="checkbox" name="Language[]" value="French" id="French" />
+        <label for="Germany"> Germany </label>
+        <input type="checkbox" name="Language[]" value="Germany" id="Germany" />
+        <br />
+      </span>
+      <span>
+        <label for="About">About:</label>
+        <textarea name="About" cols="30" rows="4"></textarea> <br />
+      </span>
+      <span>
+        <input type="submit" value="Submit" name="Submit" />
+      </span>
+    </form>
   </body>
 </html>
