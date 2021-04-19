@@ -48,14 +48,14 @@
         <label for="EMail">EMail:</label>
         <input type="email" name="EMail" /><br />
       </span>
-      <span id="Sex">
+      <span>
         <label for="Sex">Sex:</label>
         <input type="radio" id="male" name="Sex" value="male" />
         <label for="male">Male</label>
         <input type="radio" id="female" name="Sex" value="female" />
         <label for="female">Female</label> <br />
       </span>
-      <span id="Language">
+      <span>
         <label class="title">Language:</label>
         <label for="English"> English </label>
         <input type="checkbox" name="Language[]" value="English" id="English" />
