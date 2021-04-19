@@ -6,16 +6,12 @@
 <html lang="en">
   <head>
     <title>Activity 5</title>
-    <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="KIRTILLI-Activity5.css" />
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Registration Form</h1>
+    
     <form action="KActivity5-Preview.php" method="post">
+    <h1>Registration Form</h1>
       Name: <input type="text" name="Name"/><br/><br/> 
       Username: <input type="text" name="Username"/><br/><br/> 
 	    Password: <input type="password" name="Password"><br/><br/> 
