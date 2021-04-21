@@ -32,7 +32,7 @@
 <html lang="en">
     <head>
 	    <title>Activity 6</title>
-        <link rel="stylesheet" href="activity6.css" type="text/css">
+        <link rel="stylesheet" href="css/activity6.css" type="text/css">
     </head>
     <body>
         <h1>Currency Converter</h1>  
