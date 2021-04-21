@@ -36,7 +36,7 @@
     </head>
     <body>
         <h1>Currency Converter</h1>  
-        <form action="" method="POST">
+        <form action="Activity6.php" method="POST">
             <div class="input-area">
                 <span class="value">
                     <label for="input_value" class="label">From:</label>
