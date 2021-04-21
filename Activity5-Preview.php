@@ -6,7 +6,7 @@
     "Address"=>"Not Provided",
     "Country"=>"Not Provided",
     "Zip_Code"=>"Not Provided",
-    "Email"=>"Not Provided",
+    "EMail"=>"Not Provided",
     "About"=>"Not Provided");
 
 
