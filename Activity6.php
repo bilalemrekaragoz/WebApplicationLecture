@@ -40,7 +40,7 @@
             <div class="input-area">
                 <span class="value">
                     <label for="input_value" class="label">From:</label>
-                    <input type="number" name="input_value" id="input_value" required value="<?php echo $input_value;?>">
+                    <input type="number" name="input_value" id="input_value" required min="0" step="0.25" value="<?php echo $input_value;?>">
                 </span>
                 <span class="currency">
                     <label for="input_currency" class="label">Currency:</label>
