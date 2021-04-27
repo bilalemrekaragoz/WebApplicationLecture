@@ -1,0 +1,34 @@
+.div1
+{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.div2{
+    height: 300px;
+    width: 100%;
+    background-color: green;
+}
+
+.div2-1
+{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+
+.div2-2
+{
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+}
+
+.div2-3
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
