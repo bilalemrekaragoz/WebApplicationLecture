@@ -42,8 +42,8 @@ var displayResults = function()
 	average = sum / length;
 
 	$("results").innerHTML = "<h2>Results</h2>";
-	$("results").innerHTML = "<p>Average score: " + average + "</p>";
-	$("results").innerHTML = "</br><p>High score is: "  + names[index] + " with a score of " + max + "</p>";
+	$("results").innerHTML += "<p>Average score: " + average + "</p>";
+	$("results").innerHTML += "<p>High score is: "  + names[index] + " with a score of " + max + "</p>";
 }
 
 
@@ -52,7 +52,7 @@ var displayScores = function()
 	var length = scores.length;
 
 	$("scores_table").innerHTML = "<h2>Scores</h2>";
-	$("scores_table").innerHTML = "<tr><th>Name</th><th>Score</th></tr>";
+	$("scores_table").innerHTML += "<tr><th>Name</th><th>Score</th></tr>";
 
 	for(var i=0;i<length;i++)
 	{
