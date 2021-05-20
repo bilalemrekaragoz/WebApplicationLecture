@@ -5,15 +5,20 @@ var $ = function (id) { return document.getElementById(id); };
 
 var addScore = function()
 {
-	if($("score").value>0 && $("score").value<=100 && $("name").value != null)
+	if($("score").value >0 && $("score").value<=100 && $("name").value != "")
 	{
-		names.push($("name".value));
+		names.push($("name").value);
 		scores.push($("score").value);
+
+		$("name").value="";
+		$("score").value="";
 	}
 	else
 	{
-		alert("you must enter a name and valid score");
+		alert("You Must Enter a Name and Valid Score");
 	}
+
+	$("name").focus();
 }
 
 var displayResults = function()
@@ -56,12 +61,8 @@ var displayScores = function()
 }
 
 
-var addScore = function()
-{
-
-}
-
 window.onload = function () {
+	$("name").focus();
 	$("add").onclick = addScore;
 	$("display_results").onclick = displayResults;
 	$("display_scores").onclick = displayScores;
