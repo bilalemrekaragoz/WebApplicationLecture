@@ -9,10 +9,21 @@ $(document).ready(function() {
 	$("#image_list a").click(function(evt) {
 
 		var imageURL = $(this).attr("href");
-		$("#image").attr("src", imageURL);
+		
+		$("#image").fadeOut(1000,function()
+		{
+			$("#image").attr("src",imageURL);
+			$("#image").fadeIn(1000);
+		}
+		);
 				
 		var caption = $(this).attr("title");
-		$("#caption").text(caption);
+		$("#caption").fadeOut(1000,function()
+		{
+			$("#caption").text(caption);
+			$("#caption").fadeIn(1000);
+		}
+		)
 
 		// cancel the default action of the link
 	    evt.preventDefault();
