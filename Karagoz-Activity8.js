@@ -8,7 +8,7 @@ function changePosition()
     document.getElementById("Button").style.marginTop = randTop + "px";
 }
 
-function changeTimer()
+function startTimer()
 {
     if(clickNumber <= 3)
         setTimeout(changePosition,500);
@@ -31,7 +31,7 @@ function increaseClickNumber()
 
 window.onload = function()
 {
-    document.getElementById("Button").onmouseover = changeTimer;
+    document.getElementById("Button").onmouseover = startTimer;
     document.getElementById("Button").onclick = changePosition;
     document.getElementById("Button").onclick = increaseClickNumber;
     clickNumber=0;
