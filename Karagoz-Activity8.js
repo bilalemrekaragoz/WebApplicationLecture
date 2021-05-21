@@ -26,7 +26,6 @@ function increaseClickNumber()
 {
     clickNumber++;
     document.getElementById("text").innerHTML = clickNumber;
-    
 }
 
 
