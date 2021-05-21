@@ -18,8 +18,10 @@ function startTimer()
         setTimeout(changePosition,300);
     else if(clickNumber > 9 && clickNumber <= 12)
         setTimeout(changePosition,200);
-    else if(clickNumber > 12 )
+    else if(clickNumber > 12 && clickNumber <= 15 )
         setTimeout(changePosition,100);
+    else if (clickNumber > 15)
+        setTimeout(changePosition,0);
 }
 
 function increaseClickNumber()
