@@ -6,11 +6,7 @@ $(document).ready(function() {
 		maxDate:"+90D"
 	});
 
-	function openDialog() {
-		$("#dialog").dialog();
-	}
-
-	$( "#policies" ).on( "click", openDialog);
+	$( "#policies" ).on( "click", function(){$("#dialog").dialog();});
 
 	var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
 	
