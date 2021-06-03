@@ -8,7 +8,6 @@ $(document).ready(function()
 		slideWidth: 250,
 		slideMargin: 10,
 		randomStart: true,
-		moveSlides: 1,
 		pause: 3000,
 		pager: true,
 		pagerType: 'short',
