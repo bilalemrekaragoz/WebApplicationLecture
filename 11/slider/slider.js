@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $("#slider").bxSlider({
 		auto: true,
 		minSlides: 1,
@@ -7,12 +6,10 @@ $(document).ready(function() {
 		slideWidth: 250,
 		slideMargin: 10,
 		randomStart: true,
-		moveSlides: true,
+		moveSlides: 1,
 		speed: 3000,
 		pager: true,
 		pagerType: 'short',
 		pagerSelector : '#pager'
-		
 	});
-
 });
