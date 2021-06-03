@@ -8,7 +8,7 @@ $(document).ready(function() {
 		slideMargin: 10,
 		randomStart: true,
 		moveSlides: true,
-		pause: 3000,
+		speed: 3000,
 		pager: true,
 		pagerType: 'short',
 		pagerSelector : '#pager'
