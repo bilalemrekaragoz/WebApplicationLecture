@@ -11,7 +11,7 @@ $(document).ready(function()
 		moveSlides: 1,
 		pause: 3000,
 		pager: true,
-		pagerType: "short",
-		pagerSelector: "#pager"
+		pagerType: 'short',
+		pagerSelector: '#pager'
 	});	
 });
