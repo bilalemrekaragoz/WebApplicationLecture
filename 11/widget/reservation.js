@@ -1,4 +1,17 @@
 $(document).ready(function() {
+
+	$( "#tabs" ).tabs();
+
+	$("#arrival_date").datepicker({
+		maxDate:"+90D"
+	});
+
+	function openDialog() {
+		$("#dialog").dialog();
+	}
+
+	$( "#policies" ).on( "click", openDialog);
+
 	var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
 	
 	// move the focus to the first text box
@@ -75,3 +88,4 @@ $(document).ready(function() {
 		} // end function
 	);	// end submit
 }); // end ready
+
